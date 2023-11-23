@@ -75,11 +75,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     - __2: 0.28
     - _power: 0.1
     m_Colors:
     - _T2O: {r: 1, g: 1, b: 0, a: 0.27}
-    - _T2O_1: {r: 1, g: 1, b: 0, a: 0.67}
+    - _T2O_1: {r: 1, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []

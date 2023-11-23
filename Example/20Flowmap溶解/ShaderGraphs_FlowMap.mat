@@ -7,9 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShaderGraphs_LutDissolve
-  m_Shader: {fileID: -6465566751694194690, guid: 6ab02153c0de49947a54e2143c98abcb, type: 3}
-  m_ValidKeywords: []
+  m_Name: ShaderGraphs_FlowMap
+  m_Shader: {fileID: -6465566751694194690, guid: a36e0ca47d777284eb100e1c0e54087a, type: 3}
+  m_ValidKeywords:
+  - _USECUSTOMDATA_1_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,16 +21,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - __1:
-        m_Texture: {fileID: 2800000, guid: abf8602faa8c49b4a8aa9c185a0b6c82, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8b3f0dce3b6ddfd4ebac473df45d243b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - __2:
-        m_Texture: {fileID: 2800000, guid: e90f57269b8960546aa0fd051350ade5, type: 3}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 82207ba87c96da64eadcaafdd08aa892, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - __4:
-        m_Texture: {fileID: 2800000, guid: 63f58d8c2c5dfba49a92b891aaded6d9, type: 3}
+    - _UVMap:
+        m_Texture: {fileID: 2800000, guid: a5a4cace09c8c234ab16577a9a087a18, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,14 +47,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - __3: 0.256
-    m_Colors:
-    - _HDR: {r: 1.319508, g: 1.319508, b: 1.319508, a: 1}
+    - _USECUSTOMDATA: 0
+    - _USECUSTOMDATA_1: 1
+    - _edgWidth: 0.998
+    - _power: 0
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &1934140565407780379
+--- !u!114 &8964785695211862714
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,4 +67,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 5
