@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u7206\u70B82"
+  m_Shader: {fileID: 4800000, guid: 3786a8ebfc3abe34080a304631058bad, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _KEYWORD2_R
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTex1:
+        m_Texture: {fileID: 2800000, guid: a884b558be7112944a98eb4313ed2a3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.49, y: -0.07}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ff2a19945bfbde04e9fdf2cb83b04e1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CullMode: 0
+    - _Disslove1: 0
+    - _Disslove2: 0
+    - _Disslove3: 0
+    - _Dissolve: 0
+    - _DissolveMode: 0
+    - _Dst: 10
+    - _Hardness1: 0.864
+    - _Keyword2: 0
+    - _Mask_int: 1
+    - _OneMinus: 0
+    - _OneMinus1: 1
+    - _ZTestMode: 4
+    - _ZWriteMode: 0
+    m_Colors:
+    - _B_C: {r: 0.20754719, g: 0.02653985, b: 0, a: 1}
+    - _Color0: {r: 1.741101, g: 1.741101, b: 1.741101, a: 1}
+    - _Color1: {r: 3.031433, g: 0.46332607, b: 0, a: 1}
+    - _Color2: {r: 0.18867922, g: 0, b: 0, a: 1}
+    - _Color3: {r: 1.7207954, g: 1.036081, b: 0, a: 1}
+    - _G_C: {r: 4.1357846, g: 1.8829588, b: 0.15130919, a: 0.6156863}
+    - _MainColor: {r: 0.3773585, g: 0, b: 0.33171025, a: 1}
+    - _MainColor1: {r: 1.2641509, g: 0.81314695, b: 0, a: 1}
+    - _MainColor2: {r: 3.4415908, g: 3.405553, b: 0, a: 1}
+    - _R_C: {r: 2.433572, g: 1.7582877, b: 1.3378274, a: 1}
+  m_BuildTextureStacks: []
