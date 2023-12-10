@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hudun 1
+  m_Shader: {fileID: 4800000, guid: 1576fa5bafb3e264bad4048ca89f02ab, type: 3}
+  m_ShaderKeywords: _TOGGLESWITCH0_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Em_Tex:
+        m_Texture: {fileID: 2800000, guid: 6bbef7caa0c7a7b459bc5fe16e53caae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Em_Tex1:
+        m_Texture: {fileID: 2800000, guid: 6bbef7caa0c7a7b459bc5fe16e53caae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 0eb4d5af5eadfa449929317e6efa77f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex1:
+        m_Texture: {fileID: 2800000, guid: 0eb4d5af5eadfa449929317e6efa77f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Tex:
+        m_Texture: {fileID: 2800000, guid: efccf27a2e7dd4a4c9a7b81f565bc7df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 9775ca56099db524c9ac6322f67dd873, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _dt:
+        m_Texture: {fileID: 2800000, guid: 62ce7942fece08d43b91b863053f6b1d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 0eb4d5af5eadfa449929317e6efa77f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Deothlerp: 2
+    - _EM_EdgeSize: 0.2
+    - _EMsize: 0.91
+    - _EdgeLength: 15
+    - _EmColorInt: 2
+    - _EmTexSize: 0.874
+    - _Em_Edge: 0.76
+    - _Float0: 0
+    - _Float1: 1
+    - _Float13: 1
+    - _Float2: 2
+    - _Float6: 0
+    - _MIN: 0
+    - _MinClip: 0.2
+    - _NoiseNumber: 2
+    - _NoisePower: 3.52
+    - _NoiseSpeedX: 0.1
+    - _NoiseSpeedY: -0.1
+    - _Pianyi_MAX: 0.05
+    - _Pianyi_MIN: -0.5
+    - _Size: 0
+    - _TCint: 0.85
+    - _TessPhongStrength: 0.5
+    - _Times: 0.5
+    - _ToggleSwitch0: 1
+    - _ToggleSwitch1: 0
+    - _ToggleSwitch2: 0
+    - _Vertemax: 0.653
+    - _VertexEM_Int: 0.5
+    - _VertexMask: 0
+    - _VertexMin: 0.387
+    - _VertexOffset_MIN: -0.5
+    - _VertexOffset_Max: 0
+    - _VertexPower: 5
+    - __dirty: 0
+    - _fenxi: 0.91
+    - _jiange: 0.1
+    - _noiseMin: 0.387
+    - _noisemax: 0.653
+    - _piany: 0.1
+    - _power: 3
+    m_Colors:
+    - _BackColor: {r: 0, g: 2.9960785, b: 1.3490196, a: 1}
+    - _FrontColor: {r: 0.3333478, g: 1.2252784, b: 1.7207954, a: 1}
+    - _NoiseTexUVtiling: {r: 1, g: 1, b: 0, a: 0.1}
+    - _Vector0: {r: 1, g: 1, b: 0.1, a: 0.1}

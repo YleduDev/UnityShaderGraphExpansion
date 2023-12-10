@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u5361\u724C"
+  m_Shader: {fileID: -6465566751694194690, guid: a3fe546e758edb04c8fef98978c3e422, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddFlowTex:
+        m_Texture: {fileID: 2800000, guid: 0549157e95d20e545a77def2bfd2fddb, type: 3}
+        m_Scale: {x: 1, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeMask:
+        m_Texture: {fileID: 2800000, guid: 7bea1a91cf97b284c98c829f3e10859c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeTex:
+        m_Texture: {fileID: 2800000, guid: 9c28ea7dca3c1814695572b7f10af2e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 2800000, guid: 0bdf5bf8c86cf0645861f844f02136d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 375b7a27abd79784695ea99c9ad73e6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: a8ec158d03b1a5a44afd07c110ee088c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddFlowPower: 0.256
+    - _AddFlowSpeed: 0.5
+    - _DissolveSoft: 0.286
+    - _Dissolve_progress: 0
+    - _EdgeIntensity: 5
+    - _Edge_progress: -0.23
+    - _Gradient_Intensity: 3.22
+    - _Gradient_progress: -1
+    - _MainTex_Intensity: 5
+    - _NoiseIntensity: 0.2
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _AddFlowColor: {r: 0.32602972, g: 0.08193417, b: 0, a: 1}
+    - _EdgeColor: {r: 2.421685, g: 1.190144, b: 0.1759344, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &7573963657203122726
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
